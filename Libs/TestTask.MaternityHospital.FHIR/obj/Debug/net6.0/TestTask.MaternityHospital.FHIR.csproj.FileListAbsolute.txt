@@ -1,14 +1,3 @@
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.deps.json
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.dll
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.pdb
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.AssemblyInfoInputs.cache
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.AssemblyInfo.cs
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.csproj.CoreCompileInputs.cache
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.dll
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\refint\TestTask.MaternityHospital.FHIR.dll
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.pdb
-D:\Projects\TestTask.MaternityHospital\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\ref\TestTask.MaternityHospital.FHIR.dll
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.deps.json
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.dll
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\bin\Debug\net6.0\TestTask.MaternityHospital.FHIR.pdb
@@ -16,6 +5,7 @@ D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.AssemblyInfoInputs.cache
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.AssemblyInfo.cs
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.csproj.CoreCompileInputs.cache
+D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.sourcelink.json
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.dll
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\refint\TestTask.MaternityHospital.FHIR.dll
 D:\Projects\TestTask.MaternityHospital\Libs\TestTask.MaternityHospital.FHIR\obj\Debug\net6.0\TestTask.MaternityHospital.FHIR.pdb

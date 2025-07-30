@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestTask.MaternityHospital.Domain.Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7dd34aa8b9beb730b0c18698a97762982baa607")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestTask.MaternityHospital.Domain.Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestTask.MaternityHospital.Domain.Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
