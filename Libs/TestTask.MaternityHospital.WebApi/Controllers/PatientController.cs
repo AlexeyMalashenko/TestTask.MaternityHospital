@@ -35,7 +35,7 @@ public sealed class PatientController : BaseController
     /// <returns></returns>
     [HttpPost]
     [Route("api/patient")]
-    public async Task<ActionResult> CreatePatient(PatientIncContract incContract)
+    public async Task<ActionResult> CreatePatient([FromBody] PatientIncContract incContract)
     {
         if (string.IsNullOrWhiteSpace(incContract.Name?.Family))
         {
