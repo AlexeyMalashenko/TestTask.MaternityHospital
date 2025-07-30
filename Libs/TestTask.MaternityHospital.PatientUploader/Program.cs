@@ -23,16 +23,6 @@ var host = Host.CreateDefaultBuilder(args)
 var settings = host.Services.GetRequiredService<ApiSettings>();
 var patientService = host.Services.GetRequiredService<IPatientService>();
 
-Console.WriteLine("Хотите сгенерировать и загрузить 100 пациентов? (да/нет)");
-var input = Console.ReadLine()?.Trim().ToLower();
-
-if (input == "да" || input == "нет")
-{
-    var patients = PatientGenerator.GenerateMany(settings.Count);
-    await patientService.UploadPatientsAsync(patients);
-    Console.WriteLine("Загрузка завершена");
-}
-else
-{
-    Console.WriteLine("Загрузка пациентов отменена пользователем.");
-}
+var patients = PatientGenerator.GenerateMany(settings.Count);
+await patientService.UploadPatientsAsync(patients);
+Console.WriteLine("Загрузка завершена");
