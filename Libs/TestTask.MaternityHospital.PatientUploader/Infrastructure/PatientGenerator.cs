@@ -1,6 +1,6 @@
-﻿using PatientUploaderConsoleApp.Domain.Models;
+﻿using TestTask.MaternityHospital.PatientUploader.Domain.Models;
 
-namespace PatientUploaderConsoleApp.Infrastructure;
+namespace TestTask.MaternityHospital.PatientUploader.Infrastructure;
 
 public static class PatientGenerator
 {

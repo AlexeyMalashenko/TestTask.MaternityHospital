@@ -1,4 +1,4 @@
-﻿namespace PatientUploaderConsoleApp.Configuration;
+﻿namespace TestTask.MaternityHospital.PatientUploader.Configuration;
 
 public sealed class ApiSettings
 {

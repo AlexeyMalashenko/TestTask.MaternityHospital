@@ -1,6 +1,6 @@
-﻿using PatientUploaderConsoleApp.Domain.Models;
+﻿using TestTask.MaternityHospital.PatientUploader.Domain.Models;
 
-namespace PatientUploaderConsoleApp.Application.Interfaces;
+namespace TestTask.MaternityHospital.PatientUploader.Application.Interfaces;
 
 public interface IPatientService
 {

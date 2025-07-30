@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace PatientUploaderConsoleApp.Domain.Models;
+namespace TestTask.MaternityHospital.PatientUploader.Domain.Models;
 
 public sealed class Patient
 {

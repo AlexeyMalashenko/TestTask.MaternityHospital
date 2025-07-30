@@ -1,9 +1,9 @@
-﻿using PatientUploaderConsoleApp.Application.Interfaces;
-using PatientUploaderConsoleApp.Configuration;
-using PatientUploaderConsoleApp.Domain.Models;
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
+using TestTask.MaternityHospital.PatientUploader.Application.Interfaces;
+using TestTask.MaternityHospital.PatientUploader.Configuration;
+using TestTask.MaternityHospital.PatientUploader.Domain.Models;
 
-namespace PatientUploaderConsoleApp.Infrastructure.Services;
+namespace TestTask.MaternityHospital.PatientUploader.Infrastructure.Services;
 
 public class PatientService : IPatientService
 {
