@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "e437258d-4a09-457e-a322-137d95dcab29",
-		"name": "PatientAPI",
+		"_postman_id": "48fbb0e1-558b-4876-8adf-e3d72e72aa2c",
+		"name": "PatientAPI Copy",
 		"description": "Postman коллекция для PatientController",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "17081355"
@@ -58,7 +58,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/patients/searchByBirthDate?birthdate=eq2024-01-13",
+					"raw": "http://localhost:20811/api/patients/searchByBirthDate?birthdate=eq2024-01-13",
 					"protocol": "http",
 					"host": [
 						"localhost"
