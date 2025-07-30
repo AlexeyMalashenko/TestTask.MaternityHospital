@@ -1,0 +1,38 @@
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using PatientUploaderConsoleApp.Application.Interfaces;
+using PatientUploaderConsoleApp.Configuration;
+using PatientUploaderConsoleApp.Infrastructure;
+using PatientUploaderConsoleApp.Infrastructure.Services;
+
+var host = Host.CreateDefaultBuilder(args)
+    .ConfigureAppConfiguration((context, config) =>
+    {
+        config.SetBasePath(Directory.GetCurrentDirectory());
+        config.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+    })
+    .ConfigureServices((context, services) =>
+    {
+        var apiSettings = context.Configuration.GetSection("ApiSettings").Get<ApiSettings>()!;
+        services.AddSingleton(apiSettings);
+        services.AddHttpClient<IPatientService, PatientService>();
+    })
+    .Build();
+
+var settings = host.Services.GetRequiredService<ApiSettings>();
+var patientService = host.Services.GetRequiredService<IPatientService>();
+
+Console.WriteLine("Хотите сгенерировать и загрузить 100 пациентов? (да/нет)");
+var input = Console.ReadLine()?.Trim().ToLower();
+
+if (input == "да" || input == "нет")
+{
+    var patients = PatientGenerator.GenerateMany(settings.Count);
+    await patientService.UploadPatientsAsync(patients);
+    Console.WriteLine("Загрузка завершена");
+}
+else
+{
+    Console.WriteLine("Загрузка пациентов отменена пользователем.");
+}
