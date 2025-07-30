@@ -26,10 +26,8 @@ services:
 
   uploader:
     build:
-      context: .
-      dockerfile: Libs/TestTask.MaternityHospital.PatientUploader/Dockerfile
-    depends_on:
-      - app
+      context: ./Libs/TestTask.MaternityHospital.PatientUploader
+      dockerfile: Dockerfile
     environment:
       API__BASE_URL: http://app:80
     

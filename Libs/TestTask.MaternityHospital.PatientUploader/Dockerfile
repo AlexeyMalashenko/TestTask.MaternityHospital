@@ -4,10 +4,10 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
-COPY Libs/TestTask.MaternityHospital.PatientUploader/TestTask.MaternityHospital.PatientUploader.csproj ./
+COPY TestTask.MaternityHospital.PatientUploader.csproj ./
 RUN dotnet restore TestTask.MaternityHospital.PatientUploader.csproj
 
-COPY Libs/TestTask.MaternityHospital.PatientUploader/. ./
+COPY . ./
 RUN dotnet publish TestTask.MaternityHospital.PatientUploader.csproj -c Release -o /app/publish
 
 FROM base AS final
